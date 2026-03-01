@@ -1,0 +1,112 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap";
+/* [project]/Documents/proyectosp/portafolio_jzs_web/src/app/globals.css [app-client] (css) */
+.navbar-logo {
+  transition: color .2s;
+  color: #fff !important;
+}
+
+.navbar-logo:hover, .navbar-logo:focus {
+  -webkit-text-stroke: .5px #000;
+  text-stroke: .5px #000;
+  color: #fff !important;
+}
+
+.navbar-logo-dot {
+  color: #209cee;
+}
+
+.navbar-item-white {
+  transition: color .2s;
+  color: #fff !important;
+}
+
+.navbar-item-white:hover {
+  color: var(--bunker-accent) !important;
+}
+
+:root {
+  --bunker-dark: #0f172a;
+  --bunker-slate: #1e293b;
+  --bunker-accent: #38bdf8;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bunker-dark);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  font-family: Inter, sans-serif;
+}
+
+.hero-main-bg {
+  background-image: linear-gradient(#0f172ab3, #0f172acc), url("/img_main_coffe.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero .title {
+  text-shadow: 0 4px 12px #000c;
+  letter-spacing: -.02em;
+}
+
+.hero .title.name-highlight {
+  text-shadow: 0 0 20px #38bdf866, 0 2px 4px #00000080;
+  letter-spacing: -1px;
+  color: #fff !important;
+}
+
+.notification.is-slate-custom {
+  background-color: var(--bunker-slate);
+  color: var(--text-primary);
+  border-left: 5px solid var(--bunker-accent);
+}
+
+.project-card {
+  border-radius: 12px;
+  flex-direction: column;
+  height: 100%;
+  transition: transform .3s, box-shadow .3s, border-color .3s;
+  display: flex;
+  background-color: var(--bunker-slate) !important;
+  border: 1px solid #ffffff1a !important;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px #0006, 0 0 15px #38bdf81a;
+  border-color: var(--bunker-accent) !important;
+}
+
+.project-card .content {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text-secondary) !important;
+}
+
+.project-card .content strong {
+  color: var(--bunker-accent) !important;
+}
+
+.footer {
+  padding: 2rem 1.5rem !important;
+}
+
+.has-text-blue-light {
+  color: var(--bunker-accent);
+}
+
+/*# sourceMappingURL=Documents_proyectosp_portafolio_jzs_web_src_app_globals_d4e68fae.css.map*/

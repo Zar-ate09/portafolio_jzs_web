@@ -80,7 +80,38 @@ export default function Home() {
           </h2>
           <div className="columns is-multiline">
             
-            {/* Proyecto 1: OmniConnect */}
+
+            {/* Proyecto 1: Ejemplo para personalizar */}
+            <div className="column is-4">
+              <div className="card project-card">
+                <div className="card-content">
+                  <div className="tags mb-2">
+                    <span className="tag is-primary is-light">Supabase</span>
+                    <span className="tag is-link">Vue</span>
+                  </div>
+                  <p className="title is-4 has-text-white">Gula Verde</p>
+                  <div className="content has-text-grey-lighter">
+                    Aplicación web moderna desarrollada con Vue.js y Vite, enfocada en la gestión eficiente de productos, testimonios y contacto, integrando autenticación y servicios en la nube para una experiencia interactiva y escalable.
+                  </div>
+                  <div className="mt-3">
+                    <a
+                      href="https://www.gula-verde.com.mx/"
+                      className="button is-success is-light is-fullwidth has-text-weight-semibold"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Visitar Gula Verde (sitio externo)"
+                    >
+                      <span className="icon"><i className="fas fa-leaf"></i></span>
+                      <span>Visitar Gula Verde</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Proyecto 2: OmniConnect PI escalable diseñada con <strong>Service Pattern</strong>{" "}
+                    para la gestión de inventarios y flujos de datos críticos.
+                  </div>*/}
             <div className="column is-4">
               <div className="card project-card">
                 <div className="card-content">
@@ -89,24 +120,6 @@ export default function Home() {
                     <span className="tag is-dark">PostgreSQL</span>
                   </div>
                   <p className="title is-4 has-text-white">OmniConnect API</p>
-                  <div className="content has-text-grey-lighter">
-                    API escalable diseñada con <strong>Service Pattern</strong>{" "}
-                    para la gestión de inventarios y flujos de datos críticos.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Proyecto 2: NexusCore (Agregado para variedad) */}
-            <div className="column is-4">
-              <div className="card project-card">
-                <div className="card-content">
-                  <div className="tags mb-2">
-                    <span className="tag is-warning is-light">En Proceso</span>
-                    <span className="tag is-success is-light">Java 25</span>
-                    <span className="tag is-dark">Spring Boot</span>
-                  </div>
-                  <p className="title is-4 has-text-white">NexusCore Hub</p>
                   <div className="content has-text-grey-lighter">
                     <strong>Próximamente</strong>
                   </div>
@@ -123,6 +136,24 @@ export default function Home() {
                     <span className="tag is-dark">SRE</span>
                   </div>
                   <p className="title is-4 has-text-white">Cloud Orchestrator</p>
+                  <div className="content has-text-grey-lighter">
+                    <strong>Próximamente</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Proyecto 4: Ejemplo para personalizar */}
+            {/* Proyecto 4: NexusCore (Agregado para variedad) */}
+            <div className="column is-4">
+              <div className="card project-card">
+                <div className="card-content">
+                  <div className="tags mb-2">
+                    <span className="tag is-warning is-light">En Proceso</span>
+                    <span className="tag is-success is-light">Java 25</span>
+                    <span className="tag is-dark">Spring Boot</span>
+                  </div>
+                  <p className="title is-4 has-text-white">NexusCore Hub</p>
                   <div className="content has-text-grey-lighter">
                     <strong>Próximamente</strong>
                   </div>

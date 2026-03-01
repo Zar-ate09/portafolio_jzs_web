@@ -1,5 +1,27 @@
-/* src/app/globals.css */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+/* Logo del navbar siempre blanco, punto azul */
+.navbar-logo {
+  color: #fff !important;
+  transition: color 0.2s;
+}
+.navbar-logo:hover,
+.navbar-logo:focus {
+  color: #fff !important;
+  -webkit-text-stroke: 0.5px #000;
+  text-stroke: 0.5px #000;
+}
+.navbar-logo-dot {
+  color: #209cee;
+}
+/* Blanco por defecto, color original en hover para navbar-item-white */
+.navbar-item-white {
+  color: #fff !important;
+  transition: color 0.2s;
+}
+.navbar-item-white:hover {
+  color: var(--bunker-accent) !important;
+}
+/* src/app/globals.css */
 
 :root {
   --bunker-dark: #0f172a;    /* Azul noche profundo */
